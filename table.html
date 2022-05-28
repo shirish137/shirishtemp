@@ -1,0 +1,102 @@
+<html>
+        <head>
+            <title>table Tag</title>
+        </head>
+
+        <body>
+         <!--      
+           <table border="1">
+                <tr> <td>Sr.No</td> <td>Product</td> <td>Price</td> </tr>
+                <tr> <td>1</td> <td>abc</td> <td>1000</td> </tr>
+                <tr> <td>2</td> <td>pqr</td> <td>1500</td> </tr>
+                <tr> <td>3</td> <td>lmn</td> <td>2000</td> </tr>
+
+           </table>
+         ---->
+        <!----
+         <table border="1" align="center" width="300px" height="500">
+                 <tr>
+                       <td>Sr.no</td>
+                       <td>Product</td>
+                       <td>Price</td>
+                 </tr>
+                 <tr> 
+                        <td>1</td> 
+                        <td>abc</td> 
+                        <td>1000</td> 
+                </tr>
+                <tr> 
+                        <td>2</td> 
+                        <td>lmn</td> 
+                        <td>1500</td> 
+               </tr>
+               <tr> 
+                        <td>3</td> 
+                        <td>PQR</td> 
+                        <td>3000</td>
+               </tr>
+         </table>--->
+        <!---
+         <table border="1" align="center" cellspacing="0" cellpadding="10px">
+            <tr>
+                  <th>Sr.no</th>
+                  <th>Product</th>
+                  <th>Price</th>
+            </tr>
+            <tr> 
+                   <td>1</td> 
+                   <td>abc</td> 
+                   <td>1000</td> 
+           </tr>
+           <tr> 
+                   <td>2</td> 
+                   <td>lmn</td> 
+                   <td>1500</td> 
+          </tr>
+          <tr> 
+                   <td>3</td> 
+                   <td>PQR</td> 
+                   <td>3000</td>
+          </tr>
+    </table>--->
+<!---
+  Explain colspan and rowspan.
+  colspan and rowspan are the table attributes which are used to 
+  specify the number of columns or rows a cell should span.
+  These attribute has numeric values.
+  colspan span the cell in horizontal direction and rowspan span the
+  cell in vertical direction.
+  For e.g colspan="3" this will span the cell over three columns.
+-->
+    <table border="1" align="center">
+        <tr>
+                <td colspan="3">XYZ manufacturing Pvt.Ltd</td>
+        </tr>
+        <tr>
+              <th>Sr.no</th>
+              <th>Product</th>
+              <th>Price</th>
+        </tr>
+        <tr> 
+               <td rowspan="3">1</td> 
+               <td>abc</td> 
+               <td>1000</td> 
+       </tr>
+       <tr> 
+               <!--<td>2</td>---> 
+               <td>lmn</td> 
+               <td>1500</td> 
+      </tr>
+      <tr> 
+               <!---<td>3</td>---> 
+               <td>PQR</td> 
+               <td>3000</td>
+      </tr>
+      <tr>
+              <td colspan="2" align="right">Total:</td>
+              <td>5500</td>
+      </tr>
+</table>
+
+        </body>
+</html>
